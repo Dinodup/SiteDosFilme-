@@ -107,14 +107,14 @@ section
 }
 footer
 {
-    width: 99%;
-    height: 200px;
-    background-color: rgb(250, 235, 152);
+    width: 98%;
+    height: 100px;
+    background-color: khaki;
     margin: 5px;
-    border: solid 5px;
     border-color: black;
+    border: solid 5px;
     float: left;
-
+    border-radius: 10px;
 }
 img
 {
@@ -124,10 +124,21 @@ img
 }
 #sim
 {
-    padding-left: 100px;
-    margin: 25px;
-    width: 8%;
-    height: 150px;
+    margin: 5px;
+    margin-left: 350px;
+    width: 5%;
+    height: 90px;
+    float: left;
+    border: none 1px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5;
+    transition: all 0.5;
+}   
+
+#sim:hover {
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 /*****MEDIA QUIRES*******/
 @media (max-width: 361.98px)
